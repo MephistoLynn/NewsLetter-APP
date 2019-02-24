@@ -1,0 +1,1 @@
+include ':app', ':magicindicator', ':pagerTransforms', ':banner'

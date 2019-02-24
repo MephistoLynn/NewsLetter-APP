@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_pupop_choose"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="5dip">
+
+    <Button
+        android:id="@+id/chooser_btn_to_camera"
+        style="@style/PopupButton"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="拍照"
+        android:textSize="16sp" />
+
+    <View
+        style="@style/viewDivider.Horizontal"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/chooser_btn_to_photo"
+        style="@style/PopupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="相册"
+
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/chooser_btn_to_cancel"
+        style="@style/PopupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dip"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="取消"
+        android:textSize="16sp" />
+
+</LinearLayout>

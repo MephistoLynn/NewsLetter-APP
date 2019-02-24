@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <!-- android:textColorPrimary is the  color of the title text
+             in the Toolbar, in the Theme.AppCompat theme:  -->
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <!-- android:actionMenuTextColor is the color of the text of
+              action (menu) items in the Toolbar, at least in the
+              Theme.AppCompat theme.
+              For some reason, they already getObservable the textColorPrimary
+              when running on API 21, but not on older versions of
+              Android, so this is only necessary to support older
+              Android versions.-->
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <!-- android:textColorSecondary is the color of the menu
+             overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+        <!-- This would put the toolbar's background color,
+              but setting this also changes the popup menu's background,
+              even if we define popupTheme for our <Toolbar> -->
+        <!--<item name="android:background">@color/primaryColor</item>-->
+    </style>
+
+
+    <style name="PopupButton">
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:background">@drawable/shape_head_choose_btn</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+    <style name="Translucent_NoTitle_Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+    <style name="choose_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/head_photo_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/head_photo_dialog_out_anim</item>
+    </style>
+
+
+
+    <style name="viewDivider">
+        <item name="android:background">@color/viewDividerColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="viewDivider.Vertical" parent="viewDivider">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+
+
+    </style>
+
+    <style name="viewDivider.Horizontal" parent="viewDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+
+    </style>
+
+
+</resources>

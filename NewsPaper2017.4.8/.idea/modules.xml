@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NewsPaper.iml" filepath="$PROJECT_DIR$/NewsPaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsPaper2017.4.8.iml" filepath="$PROJECT_DIR$/NewsPaper2017.4.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magicindicator/magicindicator.iml" filepath="$PROJECT_DIR$/magicindicator/magicindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagerTransforms/pagerTransforms.iml" filepath="$PROJECT_DIR$/pagerTransforms/pagerTransforms.iml" />
+    </modules>
+  </component>
+</project>

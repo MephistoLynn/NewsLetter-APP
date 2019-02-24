@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/app_ico_news_noback" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="当前版本 V1.2"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本应用由’煎饼果子‘ 团队提供技术支持"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最终解释权归’煎饼果子‘ 科技所有"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>

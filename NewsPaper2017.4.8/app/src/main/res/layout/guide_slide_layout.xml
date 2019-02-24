@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:layoutAnimation="@anim/layout_animation"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="今日头条"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:text="女人、金钱和坏事总是新闻" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.newspaper.utils.MyView.ImageSlidePanel
+            android:id="@+id/image_slide_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <com.newspaper.utils.MyView.AntiAliasTextView
+                android:id="@+id/guide_slide_textview1"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/image01"
+                android:gravity="top|center_horizontal"
+                android:textColor="@color/white"
+                android:visibility="invisible" />
+
+            <com.newspaper.utils.MyView.AntiAliasTextView
+                android:id="@+id/guide_slide_textview2"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/image01"
+                android:gravity="top|center_horizontal"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="invisible" />
+
+            <com.newspaper.utils.MyView.AntiAliasTextView
+                android:id="@+id/guide_slide_textview3"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/image01"
+                android:gravity="top|center_horizontal"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="invisible" />
+
+            <com.newspaper.utils.MyView.AntiAliasTextView
+                android:id="@+id/guide_slide_textview4"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/image01"
+                android:gravity="top|center_horizontal"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="invisible" />
+
+            <com.newspaper.utils.MyView.AntiAliasTextView
+                android:id="@+id/guide_slide_textview5"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/image01"
+                android:gravity="top|center_horizontal"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="invisible" />
+
+            <com.newspaper.utils.MyView.AntiAliasTextView
+                android:id="@+id/guide_slide_textview6"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/image01"
+                android:gravity="top|center_horizontal"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="invisible" />
+
+
+        </com.newspaper.utils.MyView.ImageSlidePanel>
+
+        <View
+            android:id="@+id/left_shake"
+            android:layout_width="15dp"
+            android:layout_height="23dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/left"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/right_shake"
+            android:layout_width="15dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/right"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/bottom_shake"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/up"
+            android:visibility="invisible" />
+
+        <!-- 左边的点击区域 -->
+
+        <View
+            android:id="@+id/left_click_area"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" />
+
+        <!-- 右边的点击区域 -->
+
+        <View
+            android:id="@+id/right_click_area"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+        <!-- 底部的点击区域 -->
+
+        <View
+            android:id="@+id/bottom_click_area"
+
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
